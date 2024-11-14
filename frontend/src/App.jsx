@@ -6,6 +6,7 @@ import { Wallet } from './components/wallet/Wallet'
 import { Chart } from './components/chart/Chart'
 import { useEffect } from 'react'
 import { LoginPage } from './components/Login'
+import { RegisterPage } from './components/Register'
 
 export function App() {
 	useEffect(() => {
@@ -25,7 +26,7 @@ export function App() {
 					<Route path='/chart' element={<Chart />} />
 				</Route>
 				<Route path='/login' element={<LoginPage />} />
-				<Route path='/register' element={<Chart />} />
+				<Route path='/register' element={<RegisterPage />} />
 			</Routes>
 		</Router>
 	)
