@@ -1,0 +1,7 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"types": ["highcharts"]
+	},
+	"include": ["src/**/*.js", "src/components/**/*.js"]
+}
